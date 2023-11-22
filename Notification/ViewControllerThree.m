@@ -33,6 +33,7 @@
     if (userinfoPayload == notification.userInfo)
     {
         NSLog(@"%@", userinfoPayload[@"Channel"]);
+        self.label.text=[NSString stringWithFormat:@"%@",userinfoPayload[@"Channel"]];
     }
 }
 

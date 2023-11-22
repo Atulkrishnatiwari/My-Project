@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewControllerTwo : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
